@@ -8,14 +8,19 @@ Only works on: **_Linux and MacOS_**
 Install and Compile:
 Download file.
 Download gtk3:
+
 For apt systems:
       **sudo apt-get install libgtk-3-dev**
+      
 Fedora:
       **sudo dnf install gtk3-devel**
+      
 Arch(or arch based):
       **sudo pacman -S gtk3**
+      
 macOS:
       **brew install gtk+3**
+      
 
 compile with: **_gcc -o nks nks.c `pkg-config --cflags --libs gtk+-3.0`_**
 
