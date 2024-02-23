@@ -6,7 +6,9 @@ For now only available for use with one interface at a time.
 Only works on: **_Linux and MacOS_**
 
 Install and Compile:
+
 Download file.
+
 Download gtk3:
 
 For apt systems:
