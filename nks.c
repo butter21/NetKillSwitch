@@ -4,18 +4,19 @@
 void on_window_closed(GtkWidget *widget, gpointer data) {
     gtk_main_quit();
 }
-
+////////////////////CHANGE INTERFACE NAME IN THE COMMAND///////////////////////////
 void on_kill_button_clicked(GtkWidget *button, gpointer data) {
     // Define the command to be executed
-    const char *command = "ifconfig enp4s0 down";
+    const char *command = "ifconfig enp4s0 down";//change interface name in this line
     
     // Execute the command
     system(command);
 }
 
+////////////////////ALSO HERE///////////////////////////
 void on_start_button_clicked(GtkWidget *button, gpointer data) {
     // Define the command to be executed
-    const char *command = "ifconfig enp4s0 up";
+    const char *command = "ifconfig enp4s0 up";//change interface name in this line
     
     // Execute the command
     system(command);
